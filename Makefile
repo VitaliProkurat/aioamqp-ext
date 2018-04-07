@@ -1,6 +1,6 @@
 unit-test:
 	@echo "Run pytest"
-	python -m pytest --cov=aioamqp-ext --cov-report=term --cov-report=html --cov-append tests
+	python -m pytest --cov=aioamqp-ext
 codestyle-test:
 	@echo "Run flake"
 	@flake8
