@@ -1,10 +1,11 @@
+sudo: false
+
 language: python
 python:
   - "3.6"
-# command to install dependencies
 install:
   - pip install -r ./requirements-ci.txt 
-# command to run tests
+cache: pip
 script:
-  - flake8 .
-  - pytest tests
+  - make codestyle-test
+  - make unit-test
