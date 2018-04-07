@@ -2,6 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/aioamqp-ext.svg?maxAge=3600)](https://pypi.python.org/pypi/aioamqp-ext)
 [![Python Versions](https://img.shields.io/pypi/pyversions/aioamqp-ext.svg?maxAge=3600)](https://pypi.python.org/pypi/aioamqp-ext)
+[![Build Status](https://travis-ci.org/VitaliProkurat/aioamqp-ext.svg?branch=master)](https://travis-ci.org/VitaliProkurat/aioamqp-ext)
 
 AMQP Consumer and Producer base classes. Working on top of `aioamqp`.
 
