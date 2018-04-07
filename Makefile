@@ -1,8 +1,8 @@
 unit-test:
-	python -m pytest --cov=aioamqp-ext tests
-
+	@echo "Run pytest"
+	@pytest --cov=aioamqp-ext --cov-report=term --cov-report=html --cov-append tests
 codestyle-test:
-	python -m flake8
-
+	@echo "Run flake"
+	@flake8
 build-package:
 	python setup.py sdist
