@@ -1,5 +1,5 @@
 unit-test:
-	python -m pytest
+	python -m pytest --cov=aioamqp-ext tests
 
 codestyle-test:
 	python -m flake8
