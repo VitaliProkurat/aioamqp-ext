@@ -1,9 +1,11 @@
+sudo: false
+
 language: python
 python:
   - "3.6"
 install:
   - pip install -r ./requirements-ci.txt 
-# command to run tests
+cache: pip
 script:
   - make codestyle-test
   - make unit-test
